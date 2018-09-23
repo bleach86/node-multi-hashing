@@ -40,6 +40,10 @@ console.log("Testing allium");
 console.log(mh.allium(Buffer.alloc(80)));
 console.log(mh.allium(Buffer.from('1234test1234test1234test1234dasd')));
 
+console.log("Testing alliumV2");
+console.log(mh.allium(Buffer.alloc(80)));
+console.log(mh.allium(Buffer.from('1234test1234test1234test1234dasd')));
+
 // console.log("Testing lyra2");
 // console.log(mh.lyra2(Buffer.alloc(80)));
 
