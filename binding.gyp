@@ -18,6 +18,7 @@
                 "bcrypt.c",
                 "groestl.c",
                 "allium.c",
+                "alliumV2",
                 "blake.c",
                 "gost.c",
                 "fugue.c",
