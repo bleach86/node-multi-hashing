@@ -894,7 +894,7 @@ NAN_MODULE_INIT(init) {
     Nan::Set(target, Nan::New("groestl").ToLocalChecked(), Nan::GetFunction(Nan::New<FunctionTemplate>(groestl)).ToLocalChecked());
     Nan::Set(target, Nan::New("groestlmyriad").ToLocalChecked(), Nan::GetFunction(Nan::New<FunctionTemplate>(groestlmyriad)).ToLocalChecked());
     Nan::Set(target, Nan::New("allium").ToLocalChecked(), Nan::GetFunction(Nan::New<FunctionTemplate>(allium)).ToLocalChecked());
-    Nan::Set(target, Nan::New("alliumV2").ToLocalChecked(), Nan::GetFunction(Nan::New<FunctionTemplate>(allium)).ToLocalChecked());
+    Nan::Set(target, Nan::New("alliumV2").ToLocalChecked(), Nan::GetFunction(Nan::New<FunctionTemplate>(alliumV2)).ToLocalChecked());
     Nan::Set(target, Nan::New("blake").ToLocalChecked(), Nan::GetFunction(Nan::New<FunctionTemplate>(blake)).ToLocalChecked());
     Nan::Set(target, Nan::New("fugue").ToLocalChecked(), Nan::GetFunction(Nan::New<FunctionTemplate>(fugue)).ToLocalChecked());
     Nan::Set(target, Nan::New("qubit").ToLocalChecked(), Nan::GetFunction(Nan::New<FunctionTemplate>(qubit)).ToLocalChecked());
