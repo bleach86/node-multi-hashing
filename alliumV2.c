@@ -32,7 +32,7 @@ static char* format_hash(char* buf, uint8_t *hash)
 	return buf;
 }
 
-void allium_hash(const char* input, char* state)
+void alliumV2_hash(const char* input, char* state)
 {
     uint32_t hashA[8], hashB[8];
 
@@ -79,7 +79,7 @@ void allium_hash(const char* input, char* state)
 
 // #include "sha3/sph_blake2s.h"
 
-// void allium_hash(const char* input, char* output)
+// void alliumV2_hash(const char* input, char* output)
 // // {
 //     blake2s_state ctx_blake2s;
 //     blake2s_init(&ctx_blake2s, BLAKE2S_OUTBYTES);
